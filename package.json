@@ -1,0 +1,63 @@
+{
+  "name": "Wa-OpenAI",
+  "version": "2.1.0",
+  "description": "WhatsApp Bot OpenAI ChatGPT Using Lib Baileys Multi Device",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp-openai",
+    "whatsapp-bot",
+    "whatsapp-baileys",
+    "baileys-md",
+    "bot-wa",
+    "bot-md",
+    "whatsapp-multi-device"
+  ],
+  "base": "https://github.com/DikaArdnt/Hisoka-Morou",
+  "author": "xman",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "@whiskeysockets/baileys": "^6.7.8",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.3",
+    "canvas": "^2.11.2",
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
+    "express": "^4.21.1",
+    "figlet": "^1.5.2",
+    "file-type": "^16.5.4",
+    "form-data": "^4.0.1",
+    "fs": "0.0.1-security",
+    "jsdom": "^25.0.1",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.35",
+    "openai": "^4.67.3",
+    "pino": "^7.11.0",
+    "pm2-logrotate": "^2.7.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "rimraf": "^6.0.1",
+    "util": "^0.12.4",
+    "wa-sticker-formatter": "^4.4.4",
+    "ws": "^8.18.0",
+    "youtubei": "^1.6.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sansekai/Wa-OpenAI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sansekai/Wa-OpenAI/issues"
+  },
+  "homepage": "https://github.com/Sansekai/Wa-OpenAI#readme"
+}
